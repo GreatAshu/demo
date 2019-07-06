@@ -1,0 +1,17 @@
+package com.ashu.democicd;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoCiCdApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoCiCdApplication.class, args);
+	}
+	
+	public void test() {
+		System.out.println("This Is Test");
+	}
+
+}
