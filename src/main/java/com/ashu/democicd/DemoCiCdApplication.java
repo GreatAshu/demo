@@ -10,8 +10,5 @@ public class DemoCiCdApplication {
 		SpringApplication.run(DemoCiCdApplication.class, args);
 	}
 	
-	public void test() {
-		System.out.println("This Is Test");
-	}
 
 }
